@@ -1,20 +1,18 @@
-# data.py
+# data/data.py
 
-# Cuerpo base para crear usuario/usuaria (ajústalo a tu API si hace falta)
-create_user_body = {
-    "firstName": "Carlos Miguel",
-    "phone": "+5247710804222",
-    "address": "Ciudad de México"
-}
+# Datos de usuario para pruebas
+user_phone = "+5215551234567"
+user_address = "Av. Reforma 100, Ciudad de México"
 
-# Cuerpo base para crear kit (lo iremos variando en pruebas)
-kit_body = {
-    "name": "a"
-}
+# Datos de tarjeta de prueba
+card_number = "4111111111111111"
+card_expiry = "12/25"
+card_cvv = "123"
 
-# Valores largos dados en la lista de comprobación
-name_511 = ("Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-            "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC")
+# Mensaje de prueba
+driver_message = "Por favor, toca el claxon al llegar"
 
-name_512 = ("Abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd"
-            "AbcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcD")
+# Función simulada para recuperar código de teléfono
+def retrieve_phone_code():
+    # Aquí normalmente interceptaría el código enviado por la plataforma
+    return "0000"

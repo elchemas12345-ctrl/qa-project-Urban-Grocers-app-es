@@ -1,6 +1,5 @@
-URL_SERVICE =  "https://cnt-3d676205-47bf-4568-963c-b2c00b025d10.containerhub.tripleten-services.com" # Inserta tu dirección de URL sin la barra diagonal al final
-CREATE_USER_PATH = "/users" # Almacena la ruta para crear un usuario o usuaria en esta variable
-KITS_PATH ="/kits" # Almacena la ruta para crear un kit en esta variable
+URL_SERVICE =  "https://cnt-e13492d6-56b6-4379-82a7-1feb95b864f0.containerhub.tripleten-services.com?lng=es" # Inserta tu dirección de URL sin la barra diagonal al final
+
 HEADERS = {
     "Content-Type": "application/json"
 }
